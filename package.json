@@ -36,12 +36,18 @@
     "gulp-util": "~3.0.0",
     "gulp-watch": "^3.0.0",
     "html-minifier": "^0.6.8",
-    "imagemin-pngquant": "^4.0.0",
+    "imagemin-pngquant": "^5.1.0",
     "jshint-stylish": "^1.0.0",
     "lodash": "^2.4.1",
     "request": "^2.44.0",
     "twit": "^1.1.18",
     "vimeo-api": "^1.1.1",
-    "youtube-api": "^0.3.1"
-  }
+    "youtube-api": "^1.0.0",
+    "snyk": "^1.87.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
