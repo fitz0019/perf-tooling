@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - gulp-watch > path2glob > glob > minimatch:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-25T23:39:53.147Z'
+  'npm:tunnel-agent:20170305':
+    - youtube-api > googleapis > request > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
+    - imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-25T23:39:53.147Z'
